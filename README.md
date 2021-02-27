@@ -9,8 +9,8 @@
   そこでより人々が”明日の天気”に気を配れるようにならないかとこのアプリを考案した。
   
 ## 実装
-  1.Android studioでアプリの外部を実装する。
-  2.https://api.rakuten.net/community/api/Open%20Weather%20Map からjsonを取得する機能を実装する
-  3.天気予報を表示する機能を実装する
-  4.オッズ機能を実装する
-  5.複数のユーザーのbet情報を保存できるデータベースまで実装出来たらいいなあ
+  1.Android studioでアプリの外部を実装する<br>
+  2.https://api.rakuten.net/community/api/Open%20Weather%20Map からjsonを取得する機能を実装する<br>
+  3.天気予報を表示する機能を実装する<br>
+  4.オッズ機能を実装する<br>
+  5.複数のユーザーのbet情報を保存できるデータベースまで実装出来たらいいなあ<br>
