@@ -14,3 +14,6 @@
   3.天気予報を表示する機能を実装する<br>
   4.オッズ機能を実装する<br>
   5.複数のユーザーのbet情報を保存できるデータベースまで実装出来たらいいなあ<br>
+ 
+## Attribution
+Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
