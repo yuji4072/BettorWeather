@@ -90,9 +90,9 @@ class MainActivity : AppCompatActivity() {
 
     //epoch秒と日時を変換して扱いやすくする
     private fun ChangeUnixTime(unixTime: String): String {
-        var timeform = SimpleDateFormat("HH")
-        var timetmp = Date(unixTime.toInt() * 1000L)
-        var nowTime = timeform.format(timetmp)
+        var timeform = SimpleDateFormat("HH") //時間のみを取得する
+        var timetmp = Date(unixTime.toInt() * 1000L) //Kotlinの記法
+        var nowTime = timeform.format(timetmp) //フォームに従ってunixタイムを時間に変える
         return nowTime
     }
 
