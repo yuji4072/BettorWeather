@@ -17,7 +17,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildFeatures {
+    buildFeatures { //viewBindingをtrueにした
         viewBinding = true
     }
 
@@ -36,7 +36,7 @@ android {
     }
 }
 
-kotlin {
+kotlin { //databindを扱えるように
     experimental {
         coroutines 'enable'
     }
