@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
     private fun getWeatherFut(): Job { //Job型を返しGlobalScopeで同期させる
         return GlobalScope.launch{
             WeatherTextFut = ""
-            var API_KEY = "074778ef9b933a2b81d72930de64a034" //APIKEYを指定
+            var API_KEY = "何かAPIKEY" //APIKEYを指定
             var API_URL = "http://api.openweathermap.org/data/2.5/forecast?" +
                     "q=Nagoya&lang=" + "ja" + "&" + "APPID=" + API_KEY //クエリを指定
 
@@ -148,7 +148,7 @@ class MainActivity : AppCompatActivity() {
 
             //ここからまたApiをたたいていく(ほとんど手順は同じ)
             WeatherTextPas = ""
-            var API_KEY = "074778ef9b933a2b81d72930de64a034"
+            var API_KEY = "何かAPIKEY"(ここも各自のAPIKEY）
             var API_URL = "https://api.openweathermap.org/data/2.5/onecall/timemachine?" +
                     "lat=35.185587&lon=136.899091&dt=" + dt + "&lang=ja&APPID=" + API_KEY
             var apiurl = URL(API_URL)
